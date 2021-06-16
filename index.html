@@ -25,7 +25,7 @@
 
 <body>
 	<header>
-		<header style="background-color: red;">
+		<header>
 			<h1>Games Wiki</h1>
 			<ul>
 				<li><a href="https://www.google.com/">Home</a></li>
@@ -34,7 +34,7 @@
 			</ul>
 
 		</header>
-		<main style="background-color: blue;">
+		<main>
 			<section>
 				<img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Ubisoft_coming_to_Xbox_Game_Pass.jpg" alt="RGB PC" width="1200" height="600">
       </section>
@@ -45,6 +45,8 @@
         <div>
           <img src="https://www.rockstargames.com/V/img/global/order/GTAV-PC.jpg" width="500" height="500">
           <h4>GTA V</h4>
+          <button onclick="GTAVbutton()">More Info.</button>
+          
         </div>
         <div>
           <img src="https://image.api.playstation.com/vulcan/ap/rnd/202009/2419/BWMVfyxONkIAlAJVQd96qPuN.png" width="500" height="500">
@@ -86,9 +88,19 @@
 </table>
       </section>
     </main>
-    <footer style="background-color: white;">
+    <footer>
       <p>&copy; Farouk Ibrahim</p>
     </footer>
+    <script src="app.js">
+
+    </script>
+    <script>
+      function GTAVbutton(){
+        confirm("GTA V was released 2013")
+      } 
+    </script>
+    
+  
   </body>
 
 </html>
