@@ -1,6 +1,6 @@
 var name = prompt("what is your name?")
 
-alert("welcome to Games Wiki" + name)
+alert("welcome to Games Wiki " + name)
 
 var Age = prompt("How are you?")
 
@@ -26,5 +26,3 @@ else if(FavGame == "Animal Crossing"){
 else{
   alert("Sorry, we don't have what you asked for, but feel free to see what we have.")
 }
-
-
