@@ -34,9 +34,12 @@ else{
 
 var GamNum = prompt("How many times would like to download you favorite game?")
 
-for(var i = 0; i < GamNum; i++){
+for(var i = 1; i <= GamNum; i++){
 
 document.write("<div>" + "<img src='https://www.rockstargames.com/V/img/global/order/GTAV-PC.jpg' width='500' height='500' class='InDivImg'>" + "<h4>" + "GTA V" + "</h4>" + "</div>"
+
 )
+
+document.write(i)
 }
 
