@@ -1,0 +1,51 @@
+body{
+  background-color: lightcyan;
+  margin: 0;
+}
+
+header{
+  background-color: lightgray;
+  height: 90px;
+}
+
+h1{
+  float: left;
+}
+
+nav{
+  float: right;
+}
+
+ul{
+  margin-right: 30pt;
+  margin-top: 30pt;
+}
+
+li{
+  display: inline-block;
+  padding-left: 20pt
+}
+
+li a{
+ text-decoration: none;
+}
+
+div{
+  display: inline-block;
+  padding: 40pt;
+}
+
+.InDivImg{
+  width: 200pt;
+  height: 200pt;
+}
+
+#MainImg{
+  padding: 93pt;
+}
+
+
+p{
+  margin-left: 30pt;
+  font-size: 30pt;
+}
