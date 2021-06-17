@@ -18,6 +18,20 @@ while(FavGame != "GTA V" && FavGame != "Fallout 4" && FavGame != "Animal Crossin
   FavGame = prompt("Please enter a valid name from the previous options")
 }
 
+if(FavGame == "GTA V"){
+  alert("Great! We have what you are asking for.")
+}
+else if(FavGame == "Fallout 4"){
+  alert("Great! We have what you are asking for.")
+}
+else if(FavGame == "Animal Crossing"){
+  alert("Great! We have what you are asking for.")
+}
+else{
+  alert("Sorry, we don't have what you asked for, but feel free to see what we have.")
+}
+
+
 var GamNum = prompt("How many times would like to download you favorite game?")
 
 for(var i = 0; i < GamNum; i++){
@@ -26,15 +40,3 @@ document.write("<div>" + "<img src='https://www.rockstargames.com/V/img/global/o
 )
 }
 
-// if(FavGame == "GTA V"){
-//   alert("Great! We have what you are asking for.")
-// }
-// else if(FavGame == "Fallout 4"){
-//   alert("Great! We have what you are asking for.")
-// }
-// else if(FavGame == "Animal Crossing"){
-//   alert("Great! We have what you are asking for.")
-// }
-// else{
-//   alert("Sorry, we don't have what you asked for, but feel free to see what we have.")
-// }
