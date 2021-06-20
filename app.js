@@ -12,6 +12,7 @@ else{
 
 }
 
+function Game(){
 var FavGame = prompt("what is your favorite game? GTA V, Fallout 4 or Animal Crossing?")
 
 while(FavGame != "GTA V" && FavGame != "Fallout 4" && FavGame != "Animal Crossing") {
@@ -30,13 +31,28 @@ else if(FavGame == "Animal Crossing"){
 else{
   alert("Sorry, we don't have what you asked for, but feel free to see what we have.")
 }
-
+}
+Game();
 
 var GamNum = prompt("How many times would like to download you favorite game?")
 
-for(var i = 0; i < GamNum; i++){
+for(var i = 1; i <= GamNum; i++){
 
 document.write("<div>" + "<img src='https://www.rockstargames.com/V/img/global/order/GTAV-PC.jpg' width='500' height='500' class='InDivImg'>" + "<h4>" + "GTA V" + "</h4>" + "</div>"
+
 )
+
+document.write(i)
 }
 
+function rating (num){
+for (var i = 0; i < num; i++){
+
+  document.write("<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Golden_star.svg/1200px-Golden_star.svg.png'>")
+}
+
+}
+
+var starsNum = prompt('How many stars do you rate our website?')
+
+rating(starsNum);
