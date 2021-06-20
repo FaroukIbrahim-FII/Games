@@ -43,12 +43,15 @@ document.write("<div>" + "<img src='https://www.rockstargames.com/V/img/global/o
 )
 
 document.write(i)
+<<<<<<< HEAD
 }
 
 function rating (num){
 for (var i = 0; i < num; i++){
 
   document.write("<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Golden_star.svg/1200px-Golden_star.svg.png'>")
+=======
+>>>>>>> 8882f344cc22c8798db9e131def415d8be0a8868
 }
 
 }
